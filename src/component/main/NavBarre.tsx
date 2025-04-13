@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 // @ts-ignore
-import { initMenu } from '../../assets/js/menu';
+import { initMenu } from '../../../public/js/menu';
 import dataPage from "../../page/DescriptionPageData";
 
 const NavBarre: React.FC = () => {
@@ -27,7 +27,7 @@ const NavBarre: React.FC = () => {
 				<li key={content.route}><a href={content.route}>{content.title}</a></li>
 			  ))}
 			</ul>
-			<a className="close">Close</a>
+			<a href="#" className="close">Close</a>
 		  </div>
 		</nav>
 	  </>
