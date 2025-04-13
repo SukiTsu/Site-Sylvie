@@ -1,7 +1,7 @@
 
 import NavBarre from "../component/NavBarre"
 import "../assets/style/styleIndex.css"
-import Footer from "../component/Footer"
+import Footer from "../component/main/Footer"
 
 const About =({}) => {
 
